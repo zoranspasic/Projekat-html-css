@@ -11,146 +11,154 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="E:\Zoran\KURS\Projekat HTML i CSS\Stil-folder\Stajl.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\Home\Desktop\Projekat-html-css\Stil-folder\Stajl.css">
     <title>Projekat HTML-CSS - Kontakt</title>
     <style>
-   /* #levo { 
-    width: 30%;
-    margin-top: 20px;
-    border: 1px solid black;
-    box-shadow: 3px 3px grey;
-    display: inline-block;
-}
-
-#formular {
-    width: 50%;
-    line-height: 80%;
-    margin-top: 20px;
-    margin-left: 20px;
-    border: 1px solid black;
-    box-shadow: 3px 3px grey;
-    display: inline-block;
-}
-
-fieldset {
-            width: 90%;
-            height: 50%;
-            margin-left: 10px;
+        #kontakt_levo,
+        #kontakt_formular {
+            border: 1px solid black;
+            box-shadow: 3px 3px grey;
         }
 
-        input, textarea {
-            width:100%;
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 80%;
+            text-align: center;
+            font-style: italic;
+            font-size: 10px;
+            padding-bottom: 10px;
+            border-top: 1px solid black;
+
         }
-*/
+        nav {
+            background-image: linear-gradient(to bottom, rgb(184, 184, 240), rgb(181, 243, 181));
+            border-radius: 15px;
+        }
     </style>
 </head>
 
-<body class="container">
-       
-       
-        
-<div class="container">
-    <nav>
-        <ol class="breadcrumb">
-            <li class="mr-3">Vi ste ovde:</li>
-            <li class="breadcrumb-item">
-                <a href="Index.html">O meni</a>
-            </li>
-            <li class="breadcrumb-item">
-                <a href="Projekat-ZSpasicucenik-CV.html">CV</a>
-            </li>
-            <li class="breadcrumb-item active">Kontakt</a>
-            </li>
-        </ol>
-    </nav>
-</div>
-                           
-<div id="glavni" class="container rounded">
+<body class="container pt-2">
 
-    <div class="row">  
-        <h1 class="mr-3 mt-4 col-" style="text-shadow: 3px 3px darkblue; color: chartreuse">Kontakt</h1>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+
+        <a class="navbar-brand" href="Zoki.jpg">Zoran Spasić</a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link active" href="index.html">O meni</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Projekat-ZSpasicucenik-CV.html">CV</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Projekat-ZSpasicucenik-kontakt.html">Kontakt</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Projekat-ZSpasicucenik-projekti.html">Projekti</a>
+              </li>    
+          </ul>
+        </div>  
+      </nav>
+      <br>
+
+    <div class="container-fluid">
+        <nav>
+            <ol class="breadcrumb">
+                <li class="mr-3">Vi ste ovde:</li>
+                <li class="breadcrumb-item">
+                    <a href="Index.html">O meni</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="Projekat-ZSpasicucenik-CV.html">CV</a>
+                </li>
+                <li class="breadcrumb-item active">Kontakt</a>
+                </li>
+            </ol>
+        </nav>
     </div>
 
-   <div id="levo" class="row col-sm-4 rounded mb-5">
+    <div id="glavni" class="container row" style="border-radius: 20px">
 
-       <table class="table table-borderless col- ml-3 mt-4">
-           <th style="font-size: 18px;">Zoran Spasić inž. elek.</th>
-           <tr>
-               <td>Adresa:</td>
-           </tr>
-           <tr>
-               <td>Kumodraška 198 </td>
-           </tr>
-           <tr>
-               <td>11010 Beograd - Voždovac</td>
-           </tr>
-           <tr>
-               <td>Srbija</td>
-           </tr>
-           <td></td>
-           <tr>
-               <td class="text-success">E-mail:<a class="ml-2" href="mailto:zor.spasic@sbb.rs">zor.spasic@sbb.rs</a></td>
-           </tr>
-           <tr>
-               <td class="mt-1 text-success">Tel:<a class="ml-2" href="#">+381 63 238-686</a></td>
-           </tr>
-           <tr>
-               <td class="text-success">Kontakt i na:</td>
-           </tr>
-           <tr>
-               <td id="social"> <a href="https://www.facebook.com" target="_blank" type="button"
-                       class="fab fa-facebook-f ml-5 mr-4" style="line-height:30px; width:30px; text-align: center"></a>
+        <h1 class="mt-2 col-sm-2" style="text-shadow: 3px 3px darkblue; color: chartreuse">Kontakt</h1>
 
-                   <a href="https://www.linkedin.com/" target="_blank" type="button"
-                       class="fab fa-linkedin-in mr-4" style="line-height:30px; width:30px; text-align: center"></a>
+        <div id="kontakt_levo" class="col-sm-3 mt-4 mb-3" style="border-radius: 20px">
 
-                   <a href="https://github.com/" target="_blank" type="button" class="fab fa-github"
-                       style="line-height:30px; width:30px; text-align: center"></a></td>
-            </tr>
-        </table>
-    </div>
-    
-    <div id="formular" class="container col-sm-6 rounded">
-        
-        <form class="ml-2">
-            <div class="form-group">
+            <table class="table table-borderless">
+                <th style="font-size: 18px;">Zoran Spasić inž. elek.</th>
+                <tr>
+                    <td>Adresa:</td>
+                </tr>
+                <tr>
+                    <td>Kumodraška 198 </td>
+                </tr>
+                <tr>
+                    <td>11010 Beograd - Voždovac</td>
+                </tr>
+                <tr>
+                    <td>Srbija</td>
+                </tr>
+                <td></td>
+                <tr>
+                    <td class="text-success">E-mail:<a class="ml-2"
+                            href="mailto:zor.spasic@sbb.rs">zor.spasic@sbb.rs</a></td>
+                </tr>
+                <tr>
+                    <td class="mt-1 text-success">Tel:<a class="ml-4" href="#">+381 63 238-686</a></td>
+                </tr>
+                <tr>
+                    <td class="text-success">Kontakt i na:</td>
+                </tr>
+                <tr>
+                    <td id="social"> <a href="https://www.facebook.com" target="_blank" type="button"
+                            class="fab fa-facebook-f ml-4 mr-4"
+                            style="line-height:30px; width:30px; text-align: center"></a>
 
-                <div class="form-group">
-                    <label class="mt-2 mb-2" for="usr">Vaše ime: (*obavezno)</label><br>
-                    <input class="mt-2 mb-2" type="text" name="usr" id="usr" placeholder="Vaše ime:" required><br>
-                </div>
+                        <a href="https://www.linkedin.com/" target="_blank" type="button"
+                            class="fab fa-linkedin-in mr-4"
+                            style="line-height:30px; width:30px; text-align: center"></a>
 
-                <div class="form-group">
-                    <label for="firm">Preduzeće:</label><br>
-                    <input class="mt-2 mb-2" type="text" name="firm" id="firm" placeholder="Preduzeće:"><br>
-                </div>
-
-                <div class="form-group">
-                    <label for="mail">Vaša email adresa: (*obavezno)</label><br>
-                    <input type="email" name="mail" id="mail" placeholder="email:" required><br>
-                </div>
-
-                <div class="form-group">
-                    <label class="mt-2 mb-2" for="txt">Unesite tekst poruke:</label><br>
-                    <textarea name="txt" id="txt" rows="10" placeholder="Poruka..."></textarea>
-                </div>
-
-            </div>
-        </form>
-
-        <div>
-            <button type="submit" class="bt button bg-success">Pošalji</button>
+                        <a href="https://github.com/" target="_blank" type="button" class="fab fa-github"
+                            style="line-height:30px; width:30px; text-align: center"></a></td>
+                </tr>
+            </table>
         </div>
 
+        <div id="kontakt_formular" class="container col-sm-5 mt-4 mb-3" style="border-radius: 20px">
+
+            <form>
+                <div class="form-group">
+                    <label class="mt-1" for="usr">Vaše ime: (*obavezno)</label>
+                    <input class="form-control" type="text" name="usr" id="usr" placeholder="Vaše ime:" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="firma">Preduzeće:</label>
+                    <input class="form-control" type="text" name="firma" id="firma" placeholder="Preduzeće:">
+                </div>
+
+                <div class="form-group">
+                    <label for="mail">Vaša email adresa: (*obavezno)</label>
+                    <input class="form-control" type="email" name="mail" id="mail" placeholder="email:" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="txt">Unesite tekst poruke:</label>
+                    <textarea class="form-control" name="txt" id="txt" rows="4" placeholder="Poruka..."></textarea>
+                </div>
+
+                <button type="submit" class="btn bg-info text-white">Pošalji</button>
+            </form>
+        </div>
     </div>
-    
-   <!--<div class="row">
-        <div class="footer col- mt-3"><p>2019. Dizajn: Zoran Spasic</p></div>  
-    </div>-->
-</div> 
-
-
-     
+    <div class="container-fluid footer">
+        <p>2019. Dizajn: Zoran Spasić</p>
+    </div>
 </body>
 
 </html>

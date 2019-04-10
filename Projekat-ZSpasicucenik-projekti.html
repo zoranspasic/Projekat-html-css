@@ -11,13 +11,59 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-        <link rel="stylesheet" type="text/css" href="E:\Zoran\KURS\Projekat HTML i CSS\Stil-folder\Stajl.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\Home\Desktop\Projekat-html-css\Stil-folder\Stajl.css">
     <title>Projekat HTML-CSS - Projekti</title>
     
+    <style>
+    .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            font-style: italic;
+            font-size: 10px;
+            padding-bottom: 10px;
+            border-top: 1px solid black;
+
+    }
+    nav {
+        background-image: linear-gradient(to right, rgb(184, 184, 240), rgb(181, 243, 181));
+        border-radius: 15px;
+    }
+    </style>
 </head>
 
-<div class="container">
+
+<body class="container text-center pt-2">
+
+    <nav class="navbar navbar-expand-sm navbar-dark">
+
+        <a class="navbar-brand" href="Zoki.jpg">Zoran Spasić</a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link active" href="index.html">O meni</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Projekat-ZSpasicucenik-CV.html">CV</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Projekat-ZSpasicucenik-kontakt.html">Kontakt</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Projekat-ZSpasicucenik-projekti.html">Projekti</a>
+              </li>    
+          </ul>
+        </div>  
+      </nav>
+      <br>
+
+    <div class="container">
         <nav>
             <ol class="breadcrumb">
                 <li class="mr-3">Vi ste ovde:</li>
@@ -36,16 +82,20 @@
         </nav>
     </div>
 
-<body class="container text-center pt-5">
-       
-    <div id="glavni" class="container rounded">
+    <div id="glavni" class="container col-sm-12" style="border-radius: 20px">
+        <div class="col-sm-12">  
+            <h1 class="text-left pt-3" style="text-shadow: 3px 3px darkblue; color: chartreuse">Projekti</h1>
+        </div>
 
-        <h1 class="pt-5 mb-5">PROJEKTI iz oblasti dizajniranja WEB stranica:</h1>
+        <h1 class="pt-5 mb-5 col-sm-12">PROJEKTI iz oblasti dizajniranja WEB stranica</h1>
 
-        <h1 class="display-1 pt-5">SLEDE ...</h1>
+        <h1 class="display-1 pt-5 col-sm-12">SLEDE ...</h1>
     </div> 
 
-    <div class="container footer mt-3"><p>2019. Dizajn: Zoran Spasic</p></div>   
+    <!-- Footer koji jos uvek ne prati stranicu -->
+    <div class="container footer col-sm-12">
+        <p>2019. Dizajn: Zoran Spasić</p>
+    </div>
     
 </body>
 
