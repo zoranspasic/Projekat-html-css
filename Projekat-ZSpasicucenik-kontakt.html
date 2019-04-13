@@ -12,16 +12,6 @@
     <link rel="stylesheet" type="text/css" href="./Stil-folder/Stajl.css">
     <title>Projekat HTML-CSS - Kontakt</title>
     <style>
-        #kontakt_levo,
-        #kontakt_formular {
-            border: 1px solid black;
-            box-shadow: 3px 3px grey;
-        }
-
-        .footer {
-            bottom: 0;
-        }
-
         nav {
             background-image: linear-gradient(to bottom, rgb(184, 184, 240), rgb(181, 243, 181));
             border-radius: 15px;
@@ -29,7 +19,7 @@
     </style>
 </head>
 
-<body class="container pt-2">
+<body class="container pt-4">
     <!-- Meni, stil: "bootstrap navbar"-->
     <nav class="navbar navbar-expand-sm navbar-light mb-4">
 
@@ -56,24 +46,9 @@
             </ul>
         </div>
     </nav>
-    <!-- informacioni meni, stil: "breadcrumb"-->
-    <div class="container-fluid">
-        <nav>
-            <ol class="breadcrumb">
-                <li class="mr-3">Vi ste ovde:</li>
-                <li class="breadcrumb-item">
-                    <a href="Index.html">O meni</a>
-                </li>
-                <li class="breadcrumb-item">
-                    <a href="Projekat-ZSpasicucenik-CV.html">CV</a>
-                </li>
-                <li class="breadcrumb-item active">Kontakt</a>
-                </li>
-            </ol>
-        </nav>
-    </div>
+    
     <!-- Glavni div koji formatira stranicu i sadrzi ostale elemente -->
-    <div id="glavni" class="container row" style="border-radius: 20px">
+    <div id="glavni" class="container row">
 
         <h1 class="mt-2 col-sm-2" style="text-shadow: 3px 3px darkblue; color: chartreuse">Kontakt</h1>
 
@@ -145,7 +120,7 @@
             </form>
         </div>
     </div>
-    <div class="container-fluid footer">
+    <div class="container-fluid footer mt-4">
         <p class="fa fa-copyright">2019. Dizajn: Zoran Spasić</p>
     </div>
 </body>

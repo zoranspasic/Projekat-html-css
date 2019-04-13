@@ -12,21 +12,23 @@
   <link rel="stylesheet" type="text/css" href="./Stil-folder/Stajl.css">
   <title>Projekat-HTMl-CSS-Zoran Spasić</title>
   <style>
-    .footer {
-      bottom: 0;
-    }
-
     nav {
       background-image: linear-gradient(to bottom, rgb(184, 184, 240), rgb(181, 243, 181));
       border-radius: 15px;
     }
+
+    td > span {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 17px;
+    }
+    
   </style>
 </head>
 
-<body class="container col-sm- pt-2">
+<body class="container col-sm- pt-4">
 
   <!-- Meni, stil: "bootstrap navbar"-->
-  <nav class="navbar navbar-expand-sm navbar-light mb-4">
+  <nav class="navbar navbar-light navbar-expand-sm mb-4">
 
     <a class="navbar-brand" href="Zoki.jpg">Zoran Spasić</a>
 
@@ -52,62 +54,50 @@
     </div>
   </nav>
 
-  <!-- informacioni meni, stil: "breadcrumb"-->
-  <div class="container-fluid">
-    <nav>
-      <ol class="breadcrumb">
-        <li class="mr-3">Vi ste ovde:</li>
-
-        <li class="breadcrumb-item active">O meni</li>
-      </ol>
-    </nav>
-  </div>
-
-  <!-- Glavni div koji formatira stranicu i sadrzi ostale elemente -->
-  <div id="glavni" class="container row" style="border-radius: 20px">
+  <!-- Glavni div koji formatira stranicu i sadrži ostale elemente -->
+  <div id="glavni" class="container row">
 
     <!-- Moja fotka koja jos uvek nije responsive -->
-    <img id="index-fotka" src="Zoki.jpg" alt="Moja_fotka" class="col-md- ml-5" style="border-radius: 20px">
+    <img id="index-fotka" src="Zoki.jpg" alt="Moja_fotka" class="mx-auto mt-5 mb-4" style="border-radius: 20px">
 
     <!-- Centralni prozor sa nekim informacijama o meni, stil: "unordered list" -->
-    <div id="centar" class="col-md-3 ml-5" style="border-radius: 20px">
-      <h3 class="pt-2 text-danger">O meni</h3>
+    <div id="centar" class="col-md-4 mx-auto mt-5 mb-4" style="border-radius: 20px">
+      <h3 class="pt-3 text-danger">O meni:</h3>
       <ul>
-        <li class="pb-2"> Rođen sam 1965. u Beogradu. </li>
+        <li class="pb-2 pt-4"> Rođen sam 1965. u Beogradu. </li>
         <li class="pb-2"> Oženjen, otac jednog deteta. </li>
         <li class="pb-2"> Svoju karijeru sam gradio u <span> IT sektoru</span>.</li>
         <li class="pb-2"> <span> Interesovanja:</span> muzika, fudbal, košarka, šah.</li>
         <li class="pb-2"> <span> Hobi:</span> sviranje gitare, slaganje puzli, maketarstvo. </li>
         <li class="pb-2"> <span> Sport:</span> Rekreativno igram fudbal i odbojku.</li>
-        <li> Aktivan vozač B kategorije. </li>
       </ul>
     </div>
-    <!-- Desni prozor sa mogucim poslovima, stil: "table" -->
-    <div id="desno" class="container col-md-4" style="border-radius: 20px">
+    <!-- Desni prozor sa mogućim poslovima, stil: "table" -->
+    <div id="desno" class="container col-md-3 mt-5 mb-4" style="border-radius: 20px">
 
       <table class="table table-borderless col-md-4">
         <th>
-          <h3 class="text-success mt-1">Mogući poslovi:</h3>
+          <h3 class="text-success mt-1">Stručnost:</h3>
         </th>
         <tr>
-          <td class="fa fa-check">Izrada Web sajtova</td>
+          <td class="fa fa-check"> <span> Izrada Web sajtova</span></td>
         </tr>
         <tr>
-          <td class="fa fa-check">Help desk</td>
+          <td class="fa fa-check"> <span> Help desk</span></td>
         </tr>
         <tr>
-          <td class="fa fa-check">IT sistem administracija</td>
+          <td class="fa fa-check"> <span> IT sistem administracija</span></td>
         </tr>
         <tr>
-          <td class="fa fa-check">Održavanje računarske opreme</td>
+          <td class="fa fa-check"> <span> Održavanje računarske opreme</span></td>
         </tr>
         <tr>
-          <td class="fa fa-envelope"><a class="ml-2" href="mailto:zor.spasic@sbb.rs">zor.spasic@sbb.rs</a></td>
+          <td class="fa fa-envelope"> <span> <a class="ml-2" href="mailto:zor.spasic@sbb.rs">zor.spasic@sbb.rs </span></a></td>
         </tr>
         <tr>
-          <td class="mt-1 fa fa-phone"><a class="ml-2" href="#">+381 63 238-686</a></td>
+          <td class="mt-1 fa fa-phone"> <span> <a class="ml-2" href="#">+381 63 238-686</span></a></td>
         </tr>
-        <!-- Pokusaj da se naprave linkovi za kontakt na drustvenim i programerskim mrezama -->
+        <!-- Pokušaj da se naprave linkovi za kontakt na društvenim i programerskim mrezama -->
         <tr>
           <td class="text-success">Kontakt i na:</td>
         </tr>
@@ -125,8 +115,8 @@
       </table>
     </div>
   </div>
-  <!-- Footer koji jos uvek ne prati stranicu -->
-  <div class="container-fluid footer">
+  <!-- Footer koji još uvek ne prati širinu stranice -->
+  <div class="container-fluid footer mt-4">
     <p class="fa fa-copyright">2019. Dizajn: Zoran Spasić</p>
   </div>
 </body>
