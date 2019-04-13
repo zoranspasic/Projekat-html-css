@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,60 +9,51 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="C:\Users\Home\Desktop\Projekat-html-css\Stil-folder\Stajl.css">
+  <link rel="stylesheet" type="text/css" href="./Stil-folder/Stajl.css">
   <title>Projekat-HTMl-CSS-Zoran Spasić</title>
-<style>
-  ul>li>span {
-    color: red;
-  }
-  .footer {
-    position: absolute;
-    bottom: 0;
-    width: 80%;
-    text-align: center;
-    font-style: italic;
-    font-size: 10px;
-    padding-bottom: 10px;
-    border-top: 1px solid black;
-  }
-  nav {
-    background-image: linear-gradient(to bottom, rgb(184, 184, 240), rgb(181, 243, 181));
-    border-radius: 15px;
-  }
-</style>
+  <style>
+    .footer {
+      bottom: 0;
+    }
+
+    nav {
+      background-image: linear-gradient(to bottom, rgb(184, 184, 240), rgb(181, 243, 181));
+      border-radius: 15px;
+    }
+  </style>
 </head>
 
 <body class="container col-sm- pt-2">
 
-  <!-- Meni navbar-->
-<nav class="navbar navbar-expand-sm navbar-light mb-4">
+  <!-- Meni, stil: "bootstrap navbar"-->
+  <nav class="navbar navbar-expand-sm navbar-light mb-4">
 
-  <a class="navbar-brand" href="Zoki.jpg">Zoran Spasić</a>
+    <a class="navbar-brand" href="Zoki.jpg">Zoran Spasić</a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-    <span class="navbar-toggler-icon text-danger"></span>
-  </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+      <span class="navbar-toggler-icon text-danger"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
           <a class="nav-link text-danger" href="index.html">O meni</a>
-      </li>
-      <li class="nav-item">
-           <a class="nav-link" href="Projekat-ZSpasicucenik-CV.html">CV</a>
-      </li>
-      <li class="nav-item">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Projekat-ZSpasicucenik-CV.html">CV</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="Projekat-ZSpasicucenik-kontakt.html">Kontakt</a>
-      </li>
-      <li class="nav-item">
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="Projekat-ZSpasicucenik-projekti.html">Projekti</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-<!-- Breadcrumb informacioni meni-->
-<div class="container-fluid">
+  <!-- informacioni meni, stil: "breadcrumb"-->
+  <div class="container-fluid">
     <nav>
       <ol class="breadcrumb">
         <li class="mr-3">Vi ste ovde:</li>
@@ -77,7 +69,7 @@
     <!-- Moja fotka koja jos uvek nije responsive -->
     <img id="index-fotka" src="Zoki.jpg" alt="Moja_fotka" class="col-md- ml-5" style="border-radius: 20px">
 
-    <!-- Centralni prozor sa nekim informacijama o meni -->
+    <!-- Centralni prozor sa nekim informacijama o meni, stil: "unordered list" -->
     <div id="centar" class="col-md-3 ml-5" style="border-radius: 20px">
       <h3 class="pt-2 text-danger">O meni</h3>
       <ul>
@@ -90,7 +82,7 @@
         <li> Aktivan vozač B kategorije. </li>
       </ul>
     </div>
-    <!-- Desni prozor sa mogucim poslovima -->
+    <!-- Desni prozor sa mogucim poslovima, stil: "table" -->
     <div id="desno" class="container col-md-4" style="border-radius: 20px">
 
       <table class="table table-borderless col-md-4">
@@ -138,4 +130,5 @@
     <p class="fa fa-copyright">2019. Dizajn: Zoran Spasić</p>
   </div>
 </body>
+
 </html>

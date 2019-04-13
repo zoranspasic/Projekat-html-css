@@ -38,32 +38,12 @@ body {
     margin-top: 30px;
 }
 
-div >a {
-    width: 30px;
-    line-height: 30px;
-    text-align: center;
-}
 
-
-#podaci {
+#podaci, #obrazovanje, #iskustvo {
     border: 1px solid black;
     font-size: 13px;
     box-shadow: 3px 3px grey;
     
-}
-
-
-#obrazovanje {
-    border: 1px solid black;
-    font-size: 13px;
-    box-shadow: 3px 3px grey;
-}
-
-#iskustvo {
-    display: inline-block;
-    border: 1px solid black;
-    font-size: 13px;
-    box-shadow: 3px 3px grey;
 }
 
 #index-fotka {
@@ -102,3 +82,15 @@ td {
     line-height: 10px;
     font-size: 16px;
 }
+.footer {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid black;
+}
+ul>li>span {
+    color: red;
+  }
