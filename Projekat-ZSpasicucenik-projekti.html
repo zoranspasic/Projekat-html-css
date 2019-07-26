@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./Stil-folder/Stajl.css">
+    <title>Projekat HTML-CSS - Projekti</title>
+
+    <style>
+        nav {
+            background-image: linear-gradient(to right, rgb(184, 184, 240), rgb(181, 243, 181));
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+
+<body class="container text-center pt-4">
+    <!-- Meni, stil: "bootstrap navbar"-->
+    <nav class="navbar navbar-expand-sm navbar-light mb-4">
+
+        <a class="navbar-brand" href="Zoki.jpg">Zoran Spasić</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">O meni</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Projekat-ZSpasicucenik-CV.html">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Projekat-ZSpasicucenik-kontakt.html">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger" href="Projekat-ZSpasicucenik-projekti.html">Projekti</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Glavni div koji formatira stranicu i sadrzi ostale elemente -->
+    <div id="glavni" class="container col-sm-12" style="border-radius: 20px">
+        <div class="col-sm-12 mx-auto">
+            <h1 class="text-left pt-3" style="text-shadow: 3px 3px darkblue; color: chartreuse">Projekti iz oblasti dizajniranja WEB stranica</h1>
+        </div>
+
+        <!--<h1 class="pt-4 mb-5 col-sm-12 mx-auto">PROJEKTI iz oblasti dizajniranja WEB stranica</h1>-->
+
+        <!--<h1 class="display-1 pt-5 pb-5 mx-auto">SLEDE USKORO ...</h1>-->
+        <br>
+        <div id="projekti">
+
+        <div id="social">
+            <h5>Moj CV:</h5>
+            Github <a href="https://github.com/zoranspasic/Projekat-html-css" target="_blank" type="button" class="fa fa-github"
+            style="line-height:30px; width:30px; text-align: center"></a>
+            Netlify <a href="https://zspasicfirstsite.netlify.com/" target="_blank"> <img src="./images/netlify.jpg" width="50" height="30"></a>
+        </div>
+        <br>
+        <div id="social">
+            <h5>Igra memorije:</h5>
+            Github <a href="https://github.com/zoranspasic/zspasicmindgame" target="_blank" type="button" class="fa fa-github"
+            style="line-height:30px; width:30px; text-align: center"></a>
+            Netlify <a href="https://zspasicmindgame.netlify.com/" target="_blank"> <img src="./images/netlify.jpg" width="50" height="30"></a>
+        </div>
+        <br>
+        <div id="social">
+            <h5>To-Do lista:</h5>  
+            Github <a href="#" target="_blank" type="button" class="fa fa-github" style="line-height:30px; width:30px; text-align: center"></a>
+            Netlify <a href="#" target="_blank"> <img src="./images/netlify.jpg" width="50" height="30"></a>
+        </div>
+        <br>
+        </div>
+
+    </div>
+
+    <!-- Footer koji jos uvek ne prati stranicu -->
+    <div class="footer mt-4 mx-auto">
+        <p class="fa fa-copyright">2019. Dizajn: Zoran Spasić</p>
+    </div>
+
+</body>
+
+</html>

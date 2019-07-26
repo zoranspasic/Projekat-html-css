@@ -1,0 +1,96 @@
+body {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+#glavni, #glavni-cv {
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-image: linear-gradient(to right, rgb(184, 184, 240), rgb(181, 243, 181));
+    margin-top: 30px;
+    box-shadow: 3px 3px grey;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+/* Index strana */
+#centar, #desno, #fotka {
+    margin-top: 40px;
+    border: 1px solid black;
+    box-shadow: 2px 2px grey;
+}
+
+ul>li>span {
+   color: red;
+}
+
+/* CV strana */
+#glavni-cv {
+    background-image: linear-gradient(to left, rgb(184, 184, 240), rgb(181, 243, 181));
+}
+
+#podaci, #obrazovanje, #iskustvo {
+    border: 1px solid black;
+    font-size: 13px;
+    box-shadow: 3px 3px grey;    
+}
+
+/* Kontakt strana */
+#kontakt_levo, #kontakt_formular {
+    border: 1px solid black;
+    box-shadow: 3px 3px grey;
+}
+
+div >a {
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#social > a:hover {
+    background-color: aquamarine;
+    text-decoration: none;
+}
+
+td {
+    min-width: 300px;
+    line-height: 10px;
+    font-size: 16px;
+}
+
+.footer {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+/* Navigacija */
+.nav-item:hover {
+    background-color: yellowgreen;
+    font-weight: bolder;
+  }
+
+  /* Projekti strana */
+#projekti {
+    text-align: center;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+
+h5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: darkblue; 
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
